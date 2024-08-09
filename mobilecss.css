@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: #FAFAFA;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.section-info{
+    background: url("image1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info{
+    width: 100%;
+    height: 46px;
+    background-color: rgba(1, 48, 71, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.info div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info img{
+    height: 2.5rem;
+    margin: 0.2rem;
+}
+
+.logo_header{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mobile-logo{
+    position: absolute;
+    height: 11.4rem;
+    top: 1.4rem;
+    left: 7.4rem;
+
+}
+
+.logo_header{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    left: 10%;
+}
+
+.logo_header button{
+    position: relative;
+    width: 15.618rem;
+    height: 4.393rem;
+    margin: 2rem 1rem;
+    background: none;
+    border: 0;
+    color: rgba(125, 125, 125, 1);
+    ;
+
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.logo_header-buttons .Home{
+    color: black;
+    border: 0.3rem black solid;
+    border-radius: 3.894rem;
+}
+
+.logo_header .Contact-Us{
+    background-color: #219EBC;
+    border-radius: 3.894rem;
+    color: white;
+}
+
+
+.section-info-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.section-info-main p{
+    font-family: Poppins;
+    font-size: 5.8rem;
+    font-weight: 600;
+    color: #2A2A2A;
+    max-width: 56.2rem;
+}
+
+.section-info-main img{
+    width: 40.151rem;
+    max-width: 100%;
+}
+
+.filter-search{
+    background-color: red;
+    width: 100%;
+    height: 12rem;
+    background: #013047D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-search button{
+    margin: 2rem;
+    padding: 2rem;
+    height: 6.1rem;
+    width: 21rem;
+    border: 2px solid #FFFFFF;
+    background: none;
+    color: white;
+    background: #D9D9D91A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    border-radius: 1.2rem;
+}
+
+.filter-search .search{
+    display: flex;
+    justify-content: center;
+    background-color: #219EBC;
+    border: 2.08px solid #219EBC;
+    
+}
+
+.filter-search button img{
+    height: 1rem;
+}
+
+
+hr{
+    width: 30rem;
+    height: 0.2rem;
+    margin: 0rem 2rem;
+}
+
+.mobile-phones{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filters{
+    width: 35.3rem;
+    box-shadow: 0px 2px 8.13px 0px #00000009;
+    box-shadow: 0px 10px 50px 0px #00000012;
+    margin: 2rem;
+    align-items: center;
+    border: 3.1px solid #D9D9D9;
+}
+
+.mobile-phones .filters p{
+    size: 2.4rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    margin: 0rem 2rem;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.mobile-phones .filters p img{
+    height: 2rem;
+    margin: 2rem 1rem 2rem 0rem;
+}
+
+.mobile-phones .filters label{
+    color: #7D7D7D;
+    size: 2rem;
+    margin: 0rem 2rem;
+    color: #7D7D7D;
+
+}
+
+.mobile-phones .filters label input{
+    accent-color: #7D7D7D;
+}
+
+.container{
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+    margin: 2rem 1rem 2rem 0rem;
+    border: 1px solid #E8E8E8;
+}
+
+.container span .clrs{
+    position: relative;
+    top: -7.5%;
+    left: 18%;
+}
+
+.container p{
+    size: 2.3rem;
+    font-weight: 400;
+    margin: 2rem;
+    font-family: 'Poppins';
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 4.2rem;
+}
+
+.mobile-devices{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile-devices .container .price{
+    font-family: 'Poppins';
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 4.8rem;
+    margin: 2rem;
+}
+
+.container .rating{
+    color: #FB8500;
+    font-family: 'Open Sans';
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 2.996rem;
+    position: relative;
+    left: 40%;
+}
+
+.container .features ul li{
+    margin: 2rem;
+    font-family: 'Poppins';
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #7D7D7D;
+    margin: 0rem 5rem;
+}
+
+.container .order-now{
+    background-color: #219EBC;
+    height: 6rem;
+    width: 20.5rem;
+    color: white;
+    border-radius: 7.2rem;
+    margin: 1.5rem;
+    border: 0;
+    font-size: 2.4rem;
+}
+
+.container .call-button img{
+    height: 6rem;
+    position: relative;
+    top: 2.5rem;
+    left: 40%;
+}
